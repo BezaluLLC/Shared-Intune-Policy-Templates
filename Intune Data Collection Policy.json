@@ -1,0 +1,18 @@
+{
+  "configDeviceHealthMonitoringCustomScope": null,
+  "name": "CIPP: Intune data collection policy",
+  "allowDeviceHealthMonitoring": "enabled",
+  "deviceManagementApplicabilityRuleDeviceMode": null,
+  "configDeviceHealthMonitoringScope": "bootPerformance,windowsUpdates",
+  "@odata.type": "#microsoft.graph.windowsHealthMonitoringConfiguration",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "deviceManagementApplicabilityRuleOsVersion": null,
+  "deviceManagementApplicabilityRuleOsEdition": null,
+  "version": 2,
+  "displayName": "CIPP: Intune data collection policy",
+  "description": "",
+  "Type": "Device",
+  "GUID": "25a73f26-1601-4679-bf35-2f07596fe286"
+}

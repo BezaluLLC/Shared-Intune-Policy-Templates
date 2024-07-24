@@ -1,0 +1,89 @@
+{
+  "name": "CIPP: Control Removable Storage",
+  "settings": [
+    {
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_dataprotection_allowdirectmemoryaccess",
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "6368f074-9ebb-4492-8de6-9a360cd7cc5b"
+        },
+        "choiceSettingValue": {
+          "value": "device_vendor_msft_policy_config_dataprotection_allowdirectmemoryaccess_0",
+          "settingValueTemplateReference": {
+            "settingValueTemplateId": "65507cf9-eb47-4250-bc4d-3203a1652078",
+            "useTemplateDefault": false
+          },
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "1",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning",
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "3e830855-161b-495d-833c-a28f004ce677"
+        },
+        "choiceSettingValue": {
+          "value": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_1",
+          "settingValueTemplateReference": {
+            "settingValueTemplateId": "9ffa57a4-f4c7-4832-8f72-03c86489149f",
+            "useTemplateDefault": false
+          },
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "2",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_dmaguard_deviceenumerationpolicy",
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "60e06b54-bea1-40f1-b2e1-b4c8bdfa4bd6"
+        },
+        "choiceSettingValue": {
+          "value": "device_vendor_msft_policy_config_dmaguard_deviceenumerationpolicy_1",
+          "settingValueTemplateReference": {
+            "settingValueTemplateId": "531c5701-6ba0-442a-8a3d-326282e96b82",
+            "useTemplateDefault": false
+          },
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "3",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_storage_removablediskdenywriteaccess",
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "c6cf4c83-3a28-4744-be79-3c2317df35fc"
+        },
+        "choiceSettingValue": {
+          "value": "device_vendor_msft_policy_config_storage_removablediskdenywriteaccess_1",
+          "settingValueTemplateReference": {
+            "settingValueTemplateId": "c123806c-8430-421b-ba5c-b92b9e396276",
+            "useTemplateDefault": false
+          },
+          "children": []
+        }
+      }
+    }
+  ],
+  "platforms": "windows10",
+  "technologies": "mdm,microsoftSense",
+  "templateReference": {
+    "templateId": "0f2034c6-3cd6-4ee1-bd37-f3c0693e9548_1",
+    "templateFamily": "endpointSecurityAttackSurfaceReduction",
+    "templateDisplayName": "Device Control",
+    "templateDisplayVersion": "Version 1"
+  },
+  "displayName": "CIPP: Control Removable Storage",
+  "description": "",
+  "Type": "Catalog",
+  "GUID": "aabaebd2-b13b-4f65-8d5d-e168b79a991d"
+}

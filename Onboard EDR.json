@@ -1,0 +1,71 @@
+{
+  "creationSource": null,
+  "platforms": "windows10",
+  "priorityMetaData": null,
+  "name": "CIPP: Onboard EDR",
+  "settingCount": 2,
+  "id": "ee1f2e56-a2c2-4349-bc9c-1c06b9090a09",
+  "settings": [
+    {
+      "settingInstance": {
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "23ab0ea3-1b12-429a-8ed0-7390cf699160"
+        },
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "choiceSettingValue": {
+          "value": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype_autofromconnector",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children": [
+            {
+              "simpleSettingValue": {
+                "value": "Microsoft ATP connector enabled",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSecretSettingValue",
+                "valueState": "NotEncrypted"
+              },
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_onboarding_fromconnector"
+            }
+          ],
+          "settingValueTemplateReference": {
+            "settingValueTemplateId": "e5c7c98c-c854-4140-836e-bd22db59d651"
+          }
+        },
+        "settingDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype"
+      },
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "id": "0"
+    },
+    {
+      "id": "1",
+      "settingInstance": {
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "6998c81e-2814-4f5e-b492-a6159128a97b"
+        },
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "choiceSettingValue": {
+          "value": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing_1",
+          "children": [],
+          "settingValueTemplateReference": {
+            "settingValueTemplateId": "f72c326c-7c5b-4224-b890-0b9b54522bd9",
+            "useTemplateDefault": false
+          }
+        },
+        "settingDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing"
+      }
+    }
+  ],
+  "templateReference": {
+    "templateId": "0385b795-0f2f-44ac-8602-9f65bf6adede_1",
+    "templateDisplayName": "Endpoint detection and response",
+    "templateFamily": "endpointSecurityEndpointDetectionAndResponse",
+    "templateDisplayVersion": "Version 1"
+  },
+  "technologies": "mdm,microsoftSense",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "displayName": "CIPP: Onboard EDR",
+  "description": "Onboard EDR via connector and configure sample sharing",
+  "Type": "Catalog",
+  "GUID": "458bc263-5785-416a-be89-77f6bdf7858e"
+}

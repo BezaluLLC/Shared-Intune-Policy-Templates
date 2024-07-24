@@ -1,0 +1,117 @@
+{
+  "name": "CIPP: Configure Office Activation and Channels",
+  "settings": [
+    {
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_subscriptionactivation_l_autoorgidgetkey",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_subscriptionactivation_l_autoorgidgetkey_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "1",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_office16v9~policy~l_microsoftofficemachine~l_miscellaneous_l_updatechannelselectormachine",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_office16v9~policy~l_microsoftofficemachine~l_miscellaneous_l_updatechannelselectormachine_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_office16v9~policy~l_microsoftofficemachine~l_miscellaneous_l_updatechannelselectormachine_l_uc_insiderfast",
+              "settingInstanceTemplateReference": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_office16v9~policy~l_microsoftofficemachine~l_miscellaneous_l_updatechannelselectormachine_l_uc_insiderfast_1",
+                "children": []
+              }
+            },
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_office16v9~policy~l_microsoftofficemachine~l_miscellaneous_l_updatechannelselectormachine_l_uc_production",
+              "settingInstanceTemplateReference": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_office16v9~policy~l_microsoftofficemachine~l_miscellaneous_l_updatechannelselectormachine_l_uc_production_1",
+                "children": []
+              }
+            },
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_office16v9~policy~l_microsoftofficemachine~l_miscellaneous_l_updatechannelselectormachine_l_uc_insiderslow",
+              "settingInstanceTemplateReference": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_office16v9~policy~l_microsoftofficemachine~l_miscellaneous_l_updatechannelselectormachine_l_uc_insiderslow_1",
+                "children": []
+              }
+            },
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_office16v9~policy~l_microsoftofficemachine~l_miscellaneous_l_updatechannelselectormachine_l_uc_mec",
+              "settingInstanceTemplateReference": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_office16v9~policy~l_microsoftofficemachine~l_miscellaneous_l_updatechannelselectormachine_l_uc_mec_0",
+                "children": []
+              }
+            },
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_office16v9~policy~l_microsoftofficemachine~l_miscellaneous_l_updatechannelselectormachine_l_uc_sae",
+              "settingInstanceTemplateReference": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_office16v9~policy~l_microsoftofficemachine~l_miscellaneous_l_updatechannelselectormachine_l_uc_sae_0",
+                "children": []
+              }
+            },
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_office16v9~policy~l_microsoftofficemachine~l_miscellaneous_l_updatechannelselectormachine_l_uc_saepreview",
+              "settingInstanceTemplateReference": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_office16v9~policy~l_microsoftofficemachine~l_miscellaneous_l_updatechannelselectormachine_l_uc_saepreview_0",
+                "children": []
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_enableautomaticupdates",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_office16v2~policy~l_microsoftofficemachine~l_updates_l_enableautomaticupdates_1",
+          "children": []
+        }
+      }
+    }
+  ],
+  "platforms": "windows10",
+  "technologies": "mdm",
+  "templateReference": {
+    "templateId": "",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null
+  },
+  "displayName": "CIPP: Configure Office Activation and Channels",
+  "description": "",
+  "Type": "Catalog",
+  "GUID": "d6427d5f-285f-4786-acb0-2244c0e0e0e3"
+}

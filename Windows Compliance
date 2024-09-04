@@ -1,0 +1,68 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceCompliancePolicies(scheduledActionsForRule(scheduledActionConfigurations()))/$entity",
+  "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "id": "867e1402-f622-4eb8-bbbd-8080ad0cb74a",
+  "createdDateTime": "2024-04-20T04:03:54.3153372Z",
+  "lastModifiedDateTime": "2024-04-20T04:03:54.3153372Z",
+  "version": 1,
+  "passwordRequired": true,
+  "passwordBlockSimple": true,
+  "passwordRequiredToUnlockFromIdle": true,
+  "passwordMinutesOfInactivityBeforeLock": null,
+  "passwordExpirationDays": 365,
+  "passwordMinimumLength": null,
+  "passwordMinimumCharacterSetCount": null,
+  "passwordRequiredType": "deviceDefault",
+  "passwordPreviousPasswordBlockCount": null,
+  "requireHealthyDeviceReport": false,
+  "osMinimumVersion": null,
+  "osMaximumVersion": null,
+  "mobileOsMinimumVersion": null,
+  "mobileOsMaximumVersion": null,
+  "earlyLaunchAntiMalwareDriverEnabled": false,
+  "bitLockerEnabled": true,
+  "secureBootEnabled": true,
+  "codeIntegrityEnabled": true,
+  "memoryIntegrityEnabled": false,
+  "kernelDmaProtectionEnabled": false,
+  "virtualizationBasedSecurityEnabled": false,
+  "firmwareProtectionEnabled": false,
+  "storageRequireEncryption": true,
+  "activeFirewallRequired": true,
+  "defenderEnabled": true,
+  "defenderVersion": null,
+  "signatureOutOfDate": true,
+  "rtpEnabled": true,
+  "antivirusRequired": true,
+  "antiSpywareRequired": true,
+  "deviceThreatProtectionEnabled": true,
+  "deviceThreatProtectionRequiredSecurityLevel": "secured",
+  "configurationManagerComplianceRequired": false,
+  "tpmRequired": true,
+  "deviceCompliancePolicyScript": null,
+  "validOperatingSystemBuildRanges": [],
+  "scheduledActionsForRule@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceCompliancePolicies('867e1402-f622-4eb8-bbbd-8080ad0cb74a')/microsoft.graph.windows10CompliancePolicy/scheduledActionsForRule(scheduledActionConfigurations())",
+  "scheduledActionsForRule": [
+    {
+      "id": "867e1402-f622-4eb8-bbbd-8080ad0cb74a",
+      "ruleName": null,
+      "scheduledActionConfigurations@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceCompliancePolicies('867e1402-f622-4eb8-bbbd-8080ad0cb74a')/microsoft.graph.windows10CompliancePolicy/scheduledActionsForRule('867e1402-f622-4eb8-bbbd-8080ad0cb74a')/scheduledActionConfigurations",
+      "scheduledActionConfigurations": [
+        {
+          "id": "aa1bf5a4-b1c1-4c6a-9fe1-17c0f24835a7",
+          "gracePeriodHours": 0,
+          "actionType": "block",
+          "notificationTemplateId": "00000000-0000-0000-0000-000000000000",
+          "notificationMessageCCList": []
+        }
+      ]
+    }
+  ],
+  "displayName": "CIPP: Configure Windows Compliance",
+  "description": "Default compliance policy for Windows devices enrolled in Intune, curated by Bezalu.",
+  "Type": "deviceCompliancePolicies",
+  "GUID": "64220e53-b3f5-4907-bf4b-27df2f164778"
+}
